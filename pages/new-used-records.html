@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!--Author: Gillian Gahagan, Record Store page for Moon's Records Website. Last Modified: -->
+    <title>New and Used Records</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!--FAViCON LINK GOING HERE; MAKE FAVICON-->
+    <script src="../components/navigation.js" defer></script>
+    <script src="../components/VinylRecord.js" defer></script>
+    <script src="../components/footer.js" defer></script>
+  </head>
+  <body>
+    <header class="header2">
+      <img
+        src="../images/2x/logosquare_white.png"
+        width="250"
+        alt="Moon's Records Logo"
+        class="logo"
+      />
+      <nav id="navigation"></nav>
+      <div class="headerintro2">
+        <h2>New and Used Vinyl</h2>
+        <!--Need to figure out if The heading and subheading/blurb should go above or below the navigation for sake of styling-->
+        <p class="p">Check out our selection of new and used vinyl!</p>
+        <div>
+          <img
+            src="../images/1x/wepaycashforrecords.png"
+            width="300"
+            style="background-color: black"
+            alt="Image that says we pay cash for records"
+          />
+        </div>
+        <div id="ul">
+          <ul id="listwrapper">
+            <li class="ul"><a href="dmmie-page.html">Browse New</a>&nbsp;</li>
+            <li class="ul"><a href="dummie-page.html">Browse Used</a>&nbsp;</li>
+            <li class="">
+              <a href="dummie-page.html">Browse by Genre</a>&nbsp;
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--might make this a heading-->
+    </header>
+    <main>
+      <article>
+        <h1 class="h1">Moon's Vinyl Collection</h1>
+        <p id="article">
+          <!--need to figure out column margins. Might need to write more content here to fill it out a bit...-->
+          At Moon’s, we have a passion for vinyl. Vinyl is timeless and provides
+          a superior listening experience that newer technologies just can’t
+          beat. we carry a wide variety of new and used Albums, EP's, single's,
+          and box sets including collector's items, original pressings,
+          reissues, and new releases. Whatever genre you’re looking for, we
+          carry it. Feel free to browse our selection by genre or artist. At
+          Moon's, we also have special DJ discounts through our frequent buyer
+          program. In addition, if you are looking for something and that don't
+          have it, our team members can help you track it down
+        </p>
+        <!--I'm not sure if I should wrap this in a div like the other headings in the same place. In this case it's actually the heading of the article-->
+      </article>
+      <section class="staffpicks">
+        <h2 id="heading">Staff Picks</h2>
+        <div id="gallery">
+        </div>
+        <!--NOTE: there is already a div here...we may not have needed to create one in the JS file -->
+      </section>
+    </main>
+    <hr />
+    <footer></footer>
+  </body>
+</html>

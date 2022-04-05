@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Skate Shop</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway&display=swap"
+      rel="stylesheet"/>
+      <script src="../components/skate-shop-effect.js" defer></script>
+    <script src="../components/navigation.js" defer></script>
+    <script src="../components/footer.js" defer></script>
+    <script src="../components/skate-shop-effect.js" defer></script>
+<!--FAViCON LINK GOING HERE; MAKE FAVICON-->
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="dark-layer"></div>
+        <video
+          class="background-video"
+          width="100"
+          height="240"
+          playsinline
+          autoplay
+          muted
+          loop
+        >
+          <source src="../images/skatboarding_video.mov" />
+          <!--not sure if this file type will work. If not, I'll use an MP4 video-->
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <nav class="nav" id="nav a:hover">
+        /* This already has an id. Maybe I need to change it to a class? */
+      </nav>
+      <div class="headerintro3">
+        <img
+          src="../images/2x/Logo_bluegrey.png"
+          width="250"
+          alt="Moon's Records Logo"
+          id="logo"
+        />
+        <h2>Skate Shop</h2>
+        <p id="p">
+          Serving the Comox Valley's Skateboarding Community <br />
+          Brands We Carry
+        </p>
+
+        <ul id="ulskate">
+          <li>Chance</li>
+          <li>Powell Peralta</li>
+          <li>Santa Cruz</li>
+          <li>Bones</li>
+          <li>Folk</li>
+        </ul>
+      </div>
+      <p>And more...</p>
+    </header>
+    <main>
+      <h1>Welcome to Cumberland's New Skateshop!</h1>
+      <!--this will either span the page wher the other headings have gone; or I will swap it with the photo on the left and put a heading here like the other pages-->
+      <section class="section">
+        <div>
+          <img
+            src="../images/skate_kid.jpg"
+            class="image2"
+            alt="kid holding a skateboard in a skateboard shop"
+          />
+        </div>
+        <!--image will be to the right of the article-->
+        <!--Shop image will go here to the left of the article under the video-->
+        <div class="article">
+          <article id="article4">
+            <h3 id="h3">The Comox Valley's Newest Skate Shop!</h3>
+            <p>
+              We are pleased to serve the skateboarding community in Cumberland
+              and the greater Comox Valley! Come check out our new skate shop in
+              the same building as Moon’s Records. We carry a variety of decks
+              by BC brands as well as We’ve got decks, trucks, wheels, grip
+              tape, and gear. Whatever you need, we’ve got you covered. We also
+              sponsor youth skate camps called Drop into Life (link). Whether
+              you or your child wants to shred street, ramp, or bowl, our camps
+              provide a safe space for youth to learn the fundamentals of
+              skateboarding in a positive environment. The camps are taught by
+              seasoned and certified skateboard instructors.
+            </p>
+          </article>
+
+          <hr class="hr" />
+
+          <article id="article5">
+            <!--This section should move over to the right more and adjust photo  slightly on the right to align with content. Adjust margin and padding-->
+            <h3>Sign Up for Drop in To Life</h3>
+            <div id="flex">
+              <div>
+                <img
+                  src="../images/dropintolife.jpg"
+                  width="300"
+                  alt="photo of young boy on a skateboard"
+                  id="image3"
+                />
+              </div>
+              <div class="article4">
+                <p>
+                  Drop in to life Youth skatecamps run from June-September at
+                  the Cumberland Skatepark. The camps are for kids 7-18 year's
+                  old and are taught by cerified skateboard instructors. Helmets
+                  are mandatory. Check the schedule for dates and times, and use
+                  the sign up button below!
+                </p>
+                <h4 id="bheading">Click the Button Below to Sign Up!</h4>
+                <div id="button">
+                  <a href="Page_6.html"
+                    ><button class="button">Sign Up</button></a
+                  >
+                  <!--W3C Validator does not like my Button inside the anchor tag. I don't know how else to link my button to the form page, so I'm going to leave it-->
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Author: Gillian Gahagan, Index File for Moon's Records Website. Last Modified: -->
+  <head>
+    <title>Moon's Records Homepage</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--FAViCON LINK GOING HERE; MAKE FAVICON-->
+
+    <script src="../components/navigation.js" defer></script>
+    <script src="../components/footer.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <header class="header1">
+        <!--Might want to crop the header photo down even more...it's still pretty huge. Also make sure that all header photos are the same height-->
+        <div>
+          <img
+            src="../images/2x/logosquare_white.png"
+            width="250"
+            alt="Moon's Records Logo"
+            class="logo" />
+            <nav id="navigation">         
+            </nav>
+          </div><!--Will probably change this photo or try a black and white version. Also want to add transparency with the addition of a background color.-->
+            
+        <div class="headerintro">
+          <h2 style="white-space: pre-wrap;">MOON'S RECORDS</h2>
+          <!--Add 1em line height to all headings in the CSS -->
+          <p class="p">
+            The Comox Valley's Best Selection of New and Used Vinyl
+            <!--make the other headings a paragraph?-->
+            <a href="skateshop.html">
+              <br />
+              Check Out Cumberland's
+              <span class="span" style="color: aliceblue">NEW SKATE SHOP!</span>
+            </a>
+          </p>
+          <!--Might want to make this text bigger, or make "New Skate Shop even bigger. Add a "Click the Link"-->
+          <!--Link to the Skate shop. Italicize it and make it a different color-->
+        </div>
+      </header>
+      <main>
+        <div>
+          <!--Need to figure out whether this Div should go inside the section since the heading is technichally apart of the section. Make sure it's consistent accross pages-->
+          <h1 class="">Welcome to Moon's Records!</h1>
+          <!--I'm not sure if these headings should go in the section element or not. They are going to be block elements so that they have white space around them-->
+        </div>
+        <!--Not sure how to format this for flexbox. I think it should be all in one "section" with div's or article elements separating the "About" and "Contact" sections to target the navigation. I could be wrong, but for now that's what I'm doing-->
+        <section class="section">
+          <div id="img">
+            <img
+              src="../images/about_image.jpg"
+              width="600"
+              class=".image"
+              alt="Photo of the outside of Moon's Records"
+            />
+          </div>
+          <div class="article">
+            <article>
+              <!--DO NOT FORGET TO LOOK UP HOW TO LINK THE SECTIONS TO THE NAVIGATION BAR-->
+              <h3 id="about">About Moon's</h3>
+              <!--update this about content when you have your final edit-->
+              <p>
+                Moon's records is the best source for new and used vinyl records
+                in the Comox Valley. At Moon's Records, we are passionate about
+                music. We believe that vinyl records deliver a superior
+                listening experience, which is why we carry vinyl exclusively.
+                We carry a wide selection of records in all genres, Whatever
+                your musical tastes, there is something for everyone at the
+                store. For more information on what vinyl we carry, please visit
+                our New and Used Vinyl page. Moon's Records is also devoted to
+                locally crafted artisan products. We carry a wide selection of
+                locally made clothing, jewelry, and art. We also carry our own
+                Moon's Merch and have a variety of hats, sweatshirts, hoodies,
+                and tees for folks of all ages.
+                <br />
+                <br />
+                Check out upcoming events on our (events link) page. We are also
+                very pleased to announce the addition of OUR NEW SKATE SHOP!!!
+                (link) at the same location here in downtown Cumberland, BC.
+                Moon's Records looks forward to helping you find what you’re
+                looking for and looks forward to your visit. Come on down, check
+                us out, browse our collections, or chill on the couch!
+              </p>
+            </article>
+            <div class="flex2">
+              <article>
+                <!--DO NOT FORGET TO LOOK UP HOW TO LINK THE SECTIONS TO THE NAVIGATION BAR-->
+                <h3 id="contact">Location/Hours/Contact</h3>
+                <p>
+                  Located between Dodge City Cycles and Seeds Food Market in
+                  Downtown Cumberland, BC
+                  <br />
+                  <br />
+                  Address: 2719 Dunsmuir Ave, Cumberland, BC V0R 1S0
+                  <br />
+                  Hours: Every day from 10 am to 5 pm
+                  <br />
+                  Phone: (250) 400-6666
+                </p>
+              </article>
+
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="400"
+                    height="400"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=2719%20Dunsmuir%20Ave,%20Cumberland,%20BC%20V0R%201S0&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  ></iframe>
+                  <a href="https://123movies-to.org"></a><br />
+                  <a href="https://www.embedgooglemap.net"></a>
+                </div>
+              </div>
+            </div>
+            <a href="page_2.html"
+              ><h4>
+                Want to know what records we currently have in stock? Check out
+                our inventory!
+              </h4></a
+            >
+          </div>
+          <!--This a link to the page 2. Heading size might changee along the way-->
+        </section>
+      </main>
+      <footer>
+      </footer>
+    </div>
+  </body>
+</html>
