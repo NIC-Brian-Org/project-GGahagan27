@@ -1,4 +1,4 @@
-var headerEl = document.querySelector(".headerintro3");
+const headerEl = document.querySelector(".headerintro3");
 const skateShopNavEl = document.querySelector(".nav");
 
 
@@ -6,6 +6,7 @@ const darkLayerEl = document.querySelector(".dark-layer");
 
 headerEl.addEventListener("mouseover", () => {
   darkLayerEl.classList.add("active");
+  console.log("mouseover header")
 });
 skateShopNavEl.addEventListener("mouseover", () => {
   darkLayerEl.classList.add("active");
